@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="EST_style.css">
+<html>
+<head>
+	<title>EST_MCQ</title>
+<script type="text/javascript">
+	function Sub_ans()
+	{
+	var count=0;
+	//eleventh question
+	var q11=document.getElementById("est");
+	for(var i=0;i<q11.qr11.length;i++)
+	{
+			if(q11.qr11[i].checked)
+				var ans11=q11.qr11[i].value;
+
+	}
+	if(ans11=="Oxygen")
+	{
+		count++;
+	}
+
+	//twelth question
+	var q12=document.getElementById("est");
+	for(var i=0;i<q12.qr12.length;i++)
+	{
+			if(q12.qr12[i].checked)
+				var ans12=q12.qr12[i].value;
+
+	}
+	if(ans12=="97")
+	{
+		count++;
+	}
+
+	//thirteen 
+	var q13=document.getElementById("est");
+	for(var i=0;i<q13.qr13.length;i++)
+	{
+			if(q13.qr13[i].checked)
+				var ans13=q13.qr13[i].value;
+
+	}
+	if(ans13=="0.023")
+	{
+		count++;
+	}
+
+	//fourteen
+	var q14=document.getElementById("est");
+	for(var i=0;i<q14.qr14.length;i++)
+	{
+			if(q14.qr14[i].checked)
+				var ans14=q14.qr14[i].value;
+
+	}
+	if(ans14=="0.3")
+	{
+		count++;
+	}
+
+	//fifteen
+	var q15=document.getElementById("est");
+	for(var i=0;i<q15.qr15.length;i++)
+	{
+			if(q15.qr15[i].checked)
+				var ans15=q15.qr15[i].value;
+
+	}
+	if(ans15=="4")
+	{
+		count++;
+	}
+
+	//sixteen
+	var q16=document.getElementById("est");
+	for(var i=0;i<q16.qr16.length;i++)
+	{
+			if(q16.qr16[i].checked)
+				var ans16=q16.qr16[i].value;
+
+	}
+	if(ans16=="Uranium")
+	{
+		count++;
+	}
+
+	//seventeen
+	var q17=document.getElementById("est");
+	for(var i=0;i<q17.qr17.length;i++)
+	{
+			if(q17.qr17[i].checked)
+				var ans17=q17.qr17[i].value;
+
+	}
+	if(ans17=="Gobar gas Plant")
+	{
+		count++;
+	}	
+
+	//eighteen
+	var q18=document.getElementById("est");
+	for(var i=0;i<q18.qr18.length;i++)
+	{
+			if(q18.qr18[i].checked)
+				var ans18=q18.qr18[i].value;
+
+	}
+	if(ans18=="Rajstan")
+	{
+		count++;
+	}
+
+	//ninteen
+	var q19=document.getElementById("est");
+	for(var i=0;i<q19.qr19.length;i++)
+	{
+			if(q19.qr19[i].checked)
+				var ans19=q19.qr19[i].value;
+
+	}
+	if(ans19=="6")
+	{
+		count++;
+	}
+
+	//twenteen
+	var q20=document.getElementById("est");
+	for(var i=0;i<q20.qr20.length;i++)
+	{
+			if(q20.qr20[i].checked)
+				var ans20=q20.qr20[i].value;
+
+	}
+	if(ans20=="non-renewable")
+	{
+		count++;
+	}
+
+	alert("You Scored:"+count);
+
+	document.cookie="Scores EST Level 2="+count+";expires=Mon, 30 Dec 2019 12:00:00 GMT";
+	cstr=document.cookie;
+	ajp1=document.cookie;
+	var ok1=confirm("Do you want to see certificate");
+	if(ok1==true)
+	{
+		self.location="certificate.html";
+	}
+	if(ok1==false)
+	{
+		self.location="subChoice.html";
+	}
+	}
+</script>
+
+</style>
+</head>
+
+<body>
+<div class="EST_design">
+	<h1>EST</h1>
+	<h3>MCQ Questions</h3>
+
+<form id="est" name="est_form">
+	<font size="5px">
+
+
+	Q11.During Photosynthesis tree's produce<br></font>
+	<font size="5px">
+	<input type="radio" name="qr11" value="Oxygen" id="r41">Oxygen
+	<input type="radio" name="qr11" value="Hydrogen" id="r42">Hydrogen
+	<input type="radio" name="qr11" value="CO" id="r43">CO
+	<input type="radio" name="qr11" value="Nitrogen" id="44">Nitrogen
+	<br><br></font>
+	<font size="5px">
+
+
+	Q12. ....% of the water on earth is salt water.<br></font>
+	<font size="5px">
+	<input type="radio" name="qr12" value="97" id="r45">97
+	<input type="radio" name="qr12" value="87" id="r46">87
+	<input type="radio" name="qr12" value="77" id="r47">77
+	<input type="radio" name="qr12" value="67" id="r48">67
+	<br><br></font>
+	<font size="5px">		
+
+
+	Q13.The total mass of earth hydrosphere is about ...% of the earth's total mass<br></font>
+	<font size="5px">
+	<input type="radio" name="qr13" value="1" id="r49">1
+	<input type="radio" name="qr13" value="0.081" id="r50">0.081
+	<input type="radio" name="qr13" value="0.023" id="r51">0.023
+	<input type="radio" name="qr13" value="0.001" id="r52">0.001
+	<br><br></font>
+	<font size="5px">		
+
+
+	Q14.Surface date is...% of fresh water<br></font>
+	<font size="5px">
+	<input type="radio" name="qr14" value="0.3" id="r53">0.3
+	<input type="radio" name="qr14" value="0.9" id="r54">0.9
+	<input type="radio" name="qr14" value="1.1" id="r55">1.1 
+	<input type="radio" name="qr14" value="68.7" id="r56">68.7
+	<br><br></font>
+	<font size="5px">		
+
+
+	Q15.There are .... types of mineral resources.<br></font>
+	<font size="5px">
+	<input type="radio" name="qr15" value="1" id="r57">1
+	<input type="radio" name="qr15" value="2" id="r58">2
+	<input type="radio" name="qr15" value="3" id="r59">3
+	<input type="radio" name="qr15" value="4" id="r60">4
+	<br><br></font>
+	<font size="5px">		
+
+
+	Q16.Nuclear power plant use ....as fuel<br></font>
+	<font size="5px">
+	<input type="radio" name="qr16" value="Uranium" id="r61">Uranium
+	<input type="radio" name="qr16" value="Sulphate" id="r62">Sulphate
+	<input type="radio" name="qr16" value="Tungston" id="r63">Tungston
+	<input type="radio" name="qr16" value="Oxygen" id="r64">Oxygen
+	<br><br></font>
+	<font size="5px">		
+
+
+	Q17.Bio gas is obtained from...<br></font>
+	<font size="5px">
+	<input type="radio" name="qr17" value="Nuclear Plant" id="r65">Nuclear Plant
+	<input type="radio" name="qr17" value="Gobar gas Plant" id="r66">Gobar gas Plant
+	<input type="radio" name="qr17" value="Coal Plant" id="r67">Coal Plant
+	<input type="radio" name="qr17" value="Oxygen Plant" id="r68">Oxygen Plant
+	<br><br></font>
+	<font size="5px">		
+
+
+	Q18.Nuclear power plant is in kota which is in... state<br></font>
+	<font size="5px">
+	<input type="radio" name="qr18" value="Rajstan" id="r69">Rajstan
+	<input type="radio" name="qr18" value="Maharashtra" id="r70">Maharashtra
+	<input type="radio" name="qr18" value="Gujrat" id="r71">Gujrat
+	<input type="radio" name="qr18" value="Orisa" id="r72">Orisa
+	<br><br></font>
+	<font size="5px">		
+
+
+	Q19.India has about .... major types of soil.<br></font>
+	<font size="5px">
+	<input type="radio" name="qr19" value="6" id="r73">6
+	<input type="radio" name="qr19" value="27" id="r74">27
+	<input type="radio" name="qr19" value="37" id="r75">37
+	<input type="radio" name="qr19" value="17" id="r76">17
+	<br><br></font>
+	<font size="5px">		
+
+
+	Q20.Fossil fuels are termed as.....<br></font>
+	<font size="5px">
+	<input type="radio" name="qr20" value="renewable energy" id="r77">renewable energy
+	<input type="radio" name="qr20" value="non-renewable energy" id="r78">non-renewable energy
+	<input type="radio" name="qr20" value="earth energy" id="r79">earth energy
+	<input type="radio" name="qr20" value="Planet energy" id="r80">Planet energy
+	<br><br></font>
+	<font size="5px">		
+
+		<center><input type="Button" name="btn" value="SUBMIT" onclick="Sub_ans()" class="est_button"></center>
+
+</form>
+
+</style>
+</body>
+</html>

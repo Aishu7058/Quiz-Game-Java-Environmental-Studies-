@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en" >
+
+<meta charset="utf-8"> 
+<link rel="stylesheet" type="text/css" href="Style.css">
+	<title>Registeration</title>
+</head>
+
+<div class="design">
+<div id="reg">
+	<font size="50px" color="blue">
+	<h1>Register</h1>
+	</font>
+	<hr style="margin-bottom: 20px">
+	<p id="Question"></p>
+		<div class="element">
+			<form id=f1 name="form1">
+			<center>
+				<font size="20px" >
+			Enter Name:<input type="text" name="txt1" id="t1" class="t1_b" placeholder="Enter name"><br><br>
+			Enter Roll No:<input type="text" name="txt2" id="t2" class="t2_b" placeholder="Enter Roll No."><br><br>
+		<input type="button" name="btn" value="Register Here" id="b1" onclick="callRegister()" class="reg_button"><br><br>
+		</font>
+		</center>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;
+		
+	</form>
+	</div>
+</div>
+<body>
+<script type="text/javascript">
+	function callRegister()
+	{
+		var name=document.getElementById("t1").value;
+		var rno=document.form1.t2.value;
+		var rname=/^[a-zA-Z]+[a-zA-Z]+$/;
+		var rrno=/^[1-9][2]/
+		if((!rname.test(name)) && (!rrno.test(rno)))
+		{
+			alert("Invalid name & roll no");
+			self.location="JS.html";
+		}
+		else
+		{
+			alert("Registered successfully")
+			self.location="subChoice.html";
+		}
+		document.cookie="Name="+name+";expires=Mon, 30 Dec 2019 12:00:00 GMT";
+		cstr=document.cookie
+		//alert("Name:"+document.cookie);
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="AJP_style.css">
+<html>
+<head>
+	<title>AJP_MCQ</title>
+<script type="text/javascript">
+	function Sub_ans()
+	{
+	var q1=document.getElementById("ajp");
+	var ans1,count=0;
+	for(var i=0;i<q1.qr1.length;i++)
+	{
+			if(q1.qr1[i].checked)
+				ans1=q1.qr1[i].value;
+
+	}
+	if(ans1=="Canvas")
+	{
+		count++;
+	}
+
+	//second question
+	var q2=document.getElementById("ajp");
+	for(var i=0;i<q2.qr2.length;i++)
+	{
+			if(q2.qr2[i].checked)
+				var ans2=q2.qr2[i].value;
+
+	}
+	if(ans2=="All of the above")
+	{
+		count++;
+	}
+
+	//third question
+	var q3=document.getElementById("ajp");
+	for(var i=0;i<q3.qr3.length;i++)
+	{
+			if(q3.qr3[i].checked)
+				var ans3=q3.qr3[i].value;
+
+	}
+	if(ans3=="getState()")
+	{
+		count++;
+	}
+
+	//fourth question
+	var q4=document.getElementById("ajp");
+	for(var i=0;i<q4.qr4.length;i++)
+	{
+			if(q4.qr4[i].checked)
+				var ans4=q4.qr4[i].value;
+
+	}
+	if(ans4=="Label")
+	{
+		count++;
+	}
+
+	//fiveth question
+	var q5=document.getElementById("ajp");
+	for(var i=0;i<q5.qr5.length;i++)
+	{
+			if(q5.qr5[i].checked)
+				var ans5=q5.qr5[i].value;
+
+	}
+	if(ans5=="CheckboxGroup")
+	{
+		count++;
+	}
+
+	//sixth question
+	var q6=document.getElementById("ajp");
+	for(var i=0;i<q6.qr6.length;i++)
+	{
+			if(q6.qr6[i].checked)
+				var ans6=q5.qr6[i].value;
+
+	}
+	if(ans6=="JComboBox")
+	{
+		count++;
+	}
+
+	//seventh question
+	var q7=document.getElementById("ajp");
+	for(var i=0;i<q7.qr7.length;i++)
+	{
+			if(q7.qr7[i].checked)
+				var ans7=q7.qr7[i].value;
+
+	}
+	if(ans7=="GridLayout")
+	{
+		count++;
+	}
+
+	//eigthth question
+	var q8=document.getElementById("ajp");
+	for(var i=0;i<q8.qr8.length;i++)
+	{
+			if(q8.qr8[i].checked)
+				var ans8=q8.qr8[i].value;
+
+	}
+	if(ans8=="ItemListener")
+	{
+		count++;
+	}
+
+
+	//ninth question
+	var q9=document.getElementById("ajp");
+	for(var i=0;i<q9.qr9.length;i++)
+	{
+			if(q9.qr9[i].checked)
+				var ans9=q9.qr9[i].value;
+
+	}
+	if(ans9=="java.util")
+	{
+		count++;
+	}
+
+
+	//tenth question
+	var q10=document.getElementById("ajp");
+	for(var i=0;i<q10.qr10.length;i++)
+	{
+			if(q10.qr10[i].checked)
+				var ans10=q10.qr10[i].value;
+
+	}
+	if(ans10=="Socket")
+	{
+		count++;
+	}
+
+
+	alert ("You scored:"+count);
+		document.cookie="Scores AJP Level 1="+count+";expires=Mon, 30 Dec 2019 12:00:00 GMT";
+		cstr=document.cookie
+		//alert("Count:"+document.cookie);
+
+	var ok=confirm("Do you want your certificate");
+	if(ok==true)
+	{
+		self.location="certificate.html";
+	}
+	if(ok==false)
+	{
+		self.location="subChoice.html";
+	}
+
+}
+
+
+</script>
+</head>
+
+<body>
+<div class="AJP_design">
+	<h1>AJP</h1>
+	<h3>MCQ Questions</h3>
+<form id="ajp" name="ajp_form">
+	<font size="5px">
+	Q1.Which of the following is not a swing class? <br></font>
+	<font size="5px">
+	<input type="radio" name="qr1" value="JApplet" id="r1">JApplet<br>
+	<input type="radio" name="qr1" value="JButton" id="r2">JButton<br>
+	<input type="radio" name="qr1" value="Canvas" id="r3">Canvas<br>
+	<input type="radio" name="qr1" value="JLabel" id="r4">JLabel
+	<br><br></font>
+		<font size="5px">
+
+
+	Q2.Which is the method used in Abstract Button class? <br></font>
+	<font size="5px">
+	<input type="radio" name="qr2" value="void setDisabledIcon(Icon i) " id="r5">void setDisabledIcon(Icon i) <br>
+	<input type="radio" name="qr2" value="void setPressedIcon(Icon i) " id="r6">void setPressedIcon(Icon i) <br>
+	<input type="radio" name="qr2" value="void setRolloverIcon(Icon i) " id="r7">void setRolloverIcon(Icon i) <br>
+	<input type="radio" name="qr2" value="All of the above" id="r8">All of the above
+	<br><br></font>
+	<font size="5px">
+
+
+	Q3.Which method is used to check the status of CheckBox? <br></font>
+	<font size="5px">
+	<input type="radio" name="qr3" value="setState()" id="r9">setState()<br>
+	<input type="radio" name="qr3" value="getState()" id="r10">getState()<br>
+	<input type="radio" name="qr3" value="setLabel()" id="r11">setLabel()<br>
+	<input type="radio" name="qr3" value="getLabel()" id="r12">getLabel()
+	<br><br></font>
+	<font size="5px">
+	
+	
+	Q4.Which of the following controls does not support interaction with user? <br></font>
+	<font size="5px">
+	<input type="radio" name="qr4" value="Label" id="r13">Label<br>
+	<input type="radio" name="qr4" value="Button" id="r14">Button<br>
+	<input type="radio" name="qr4" value="List" id="r15">List<br>
+	<input type="radio" name="qr4" value="Scrollbar" id="r16">Scrollbar
+	<br><br></font>
+	<font size="5px">
+
+
+	Q5.getSelectedCheckbox() method of which class?<br></font>
+	<font size="5px">
+	<input type="radio" name="qr5" value="CheckboxGroup" id="r17">CheckboxGroup<br>
+	<input type="radio" name="qr5" value="Choice" id="r18">Choice<br>
+	<input type="radio" name="qr5" value="Checkbox" id="r19">Checkbox<br>
+	<input type="radio" name="qr5" value="List" id="r20">List
+	<br><br></font>
+	<font size="5px">
+		
+
+	Q6.Which is the control in Swing a combination TextField & DropDown List?<br></font>
+	<font size="5px">
+	<input type="radio" name="qr6" value="Table" id="r21">Table<br>
+	<input type="radio" name="qr6" value="ToolTip" id="r22">ToolTip<br>
+	<input type="radio" name="qr6" value="JComboBox" id="r23">JComboBox<br>
+	<input type="radio" name="qr6" value="JScrollPane" id="r24">JScrollPane
+	<br><br></font>
+	<font size="5px">
+
+	Q7....... arranges the component in rows and columns?<br></font>
+	<font size="5px">
+	<input type="radio" name="qr7" value="BorderLayout" id="r25">BorderLayout<br>
+	<input type="radio" name="qr7" value="FlowLayout" id="r26">FlowLayout<br>
+	<input type="radio" name="qr7" value="GridLayout" id="r27">GridLayout<br>
+	<input type="radio" name="qr7" value="CardLayout" id="r28">CardLayout
+	<br><br></font>
+	<font size="5px">
+
+
+	Q8.Which of these interfaces define itemStateChanged()?<br></font>
+	<font size="5px">
+	<input type="radio" name="qr8" value="ComponentListener" id="r29">ComponentListener<br>
+	<input type="radio" name="qr8" value="ActionListener" id="r30">ActionListener<br>
+	<input type="radio" name="qr8" value="ItemListener" id="r31">ItemListener<br>
+	<input type="radio" name="qr8" value="ContentListener" id="r32">ContentListener
+	<br><br></font>
+	<font size="5px">
+
+
+	Q9.EventObject is in ....... Object?<br></font>
+	<font size="5px">
+	<input type="radio" name="qr9" value="java.applet" id="r33">java.applet<br>
+	<input type="radio" name="qr9" value="java.io" id="r34">java.io<br>
+	<input type="radio" name="qr9" value="java.util" id="r35">java.util<br>
+	<input type="radio" name="qr9" value="None of the above" id="r36">None of the above
+	<br><br></font>
+	<font size="5px">
+
+
+	Q10.The ...... class is used to create TCP server?<br></font>
+	<font size="5px">
+	<input type="radio" name="qr10" value="Socket" id="r37">Socket<br>
+	<input type="radio" name="qr10" value="Socket Server" id="r38">Socket Server<br>
+	<input type="radio" name="qr10" value="ServerSocket" id="r39">ServerSocket<br>
+	<input type="radio" name="qr10" value="None of the above" id="r40">None of the above
+	<br><br></font>
+	<font size="5px">	
+
+
+	
+	<center><input class="ajp_button" type="Button" name="btn" value="SUBMIT" onclick="Sub_ans()"></center>
+
+</form>
+</body>
+</html>

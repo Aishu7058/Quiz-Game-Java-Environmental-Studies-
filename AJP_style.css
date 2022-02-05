@@ -1,0 +1,44 @@
+body{
+	background-color:#eeeeee; 
+}
+.AJP_design
+{
+	width: 600px ; 
+	height: 2400px;
+	margin: 0 auto;
+	background-image:url("java.png"); 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	padding: 10px 50px 50px 50px;
+	border-radius: 50px;
+	border: 2px solid #cbcbcb;
+	box-shadow: 10px 15px 5px #cbcb;
+
+}
+.AJP_design h1
+{
+font-family: "Arial";
+background-color: #2c0747;
+font-size: 40px;
+text-align: center;
+color: #ffffff;
+padding: 2px 0px;
+border-radius: 50px;
+
+}
+
+.AJP_design h3
+{
+font-family: "Arial";
+font-size: 30px;
+text-align: center;
+padding: 5px 0px;
+}
+.ajp_button
+{
+	font-size: 35px;
+	font-family: "Arial";
+	border-radius: 15px;
+	background-color: #39e600;
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="AJP_style.css">
+<html>
+<head>
+	<title>AJP_MCQ</title>
+<script type="text/javascript">
+	function Sub_ans()
+	{
+	var count=0;
+	//eleventh question
+	var q11=document.getElementById("ajp");
+	for(var i=0;i<q11.qr11.length;i++)
+	{
+			if(q11.qr11[i].checked)
+				var ans11=q11.qr11[i].value;
+
+	}
+	if(ans11=="DatagramSocket(int port)")
+	{
+		count++;
+	}
+
+	//twelth question
+	var q12=document.getElementById("ajp");
+	for(var i=0;i<q12.qr12.length;i++)
+	{
+			if(q12.qr12[i].checked)
+				var ans12=q12.qr12[i].value;
+
+	}
+	if(ans12=="Datagram")
+	{
+		count++;
+	}
+
+	//thirteen 
+	var q13=document.getElementById("ajp");
+	for(var i=0;i<q13.qr13.length;i++)
+	{
+			if(q13.qr13[i].checked)
+				var ans13=q13.qr13[i].value;
+
+	}
+	if(ans13=="URL()")
+	{
+		count++;
+	}
+
+	//fourteen
+	var q14=document.getElementById("ajp");
+	for(var i=0;i<q14.qr14.length;i++)
+	{
+			if(q14.qr14[i].checked)
+				var ans14=q14.qr14[i].value;
+
+	}
+	if(ans14=="WRITE")
+	{
+		count++;
+	}
+
+	//fifteen
+	var q15=document.getElementById("ajp");
+	for(var i=0;i<q15.qr15.length;i++)
+	{
+			if(q15.qr15[i].checked)
+				var ans15=q15.qr15[i].value;
+
+	}
+	if(ans11=="Panel")
+	{
+		count++;
+	}
+
+	//sixteen
+	var q16=document.getElementById("ajp");
+	for(var i=0;i<q16.qr16.length;i++)
+	{
+			if(q16.qr16[i].checked)
+				var ans16=q16.qr16[i].value;
+
+	}
+	if(ans16=="using setVisible(false);")
+	{
+		count++;
+	}
+
+	//seventeen
+	var q17=document.getElementById("ajp");
+	for(var i=0;i<q17.qr17.length;i++)
+	{
+			if(q17.qr17[i].checked)
+				var ans17=q17.qr17[i].value;
+
+	}
+	if(ans17=="1) getHostName() 2)getHostAddress()")
+	{
+		count++;
+	}	
+
+	//eighteen
+	var q18=document.getElementById("ajp");
+	for(var i=0;i<q18.qr18.length;i++)
+	{
+			if(q18.qr18[i].checked)
+				var ans18=q18.qr18[i].value;
+
+	}
+	if(ans18=="String")
+	{
+		count++;
+	}
+
+	//ninteen
+	var q19=document.getElementById("ajp");
+	for(var i=0;i<q19.qr19.length;i++)
+	{
+			if(q19.qr19[i].checked)
+				var ans19=q19.qr19[i].value;
+
+	}
+	if(ans19=="void selLayout(Layoutmanager lm)")
+	{
+		count++;
+	}
+
+	//twenteen
+	var q20=document.getElementById("ajp");
+	for(var i=0;i<q20.qr20.length;i++)
+	{
+			if(q20.qr20[i].checked)
+				var ans20=q20.qr20[i].value;
+
+	}
+	if(ans20=="setSelectedIcon")
+	{
+		count++;
+	}
+	alert ("You scored:"+count);
+	
+	document.cookie="Scores AJP Level 2="+count+";expires=Mon, 30 Dec 2019 12:00:00 GMT";
+	cstr=document.cookie
+
+	var ok=confirm("Do you want to see certificate");
+	if(ok==true)
+	{
+		self.location="certificate.html";
+	}
+	if(ok==false)
+	{
+		self.location="subChoice.html";
+	}
+	
+}
+
+
+</script>
+</head>
+
+<body>
+<div class="AJP_design">
+	<h1>AJP</h1>
+	<h3>MCQ Questions</h3>
+<form id="ajp" name="ajp_form">
+	<font size="5px">
+	
+
+
+	Q11.Which constructor of DatagramSocket class is used to create a Datagram Socket and binds it with the given port number?<br></font>
+	<font size="5px">
+	<input type="radio" name="qr11" value="DatagramSocket(int port)" id="r41">DatagramSocket(int port)<br>
+	<input type="radio" name="qr11" value="DatagramSocket(int port,inetAddress adress)" id="r42">DatagramSocket(int port,inetAddress adress)<br>
+	<input type="radio" name="qr11" value="DatagramSocket()" id="r43">DatagramSocket()<br>
+	<input type="radio" name="qr11" value="None of the above" id="44">None of the above
+	<br><br></font>
+	<font size="5px">
+
+
+	Q12.UDP packets are known as ...... ?<br></font>
+	<font size="5px">
+	<input type="radio" name="qr12" value="Data PAckets" id="r45">Data Packets
+	<input type="radio" name="qr12" value="Datagram" id="r46">Datagram
+	<input type="radio" name="qr12" value="PDU" id="r47">PDU
+	<input type="radio" name="qr12" value="Package" id="r48">Package
+	<br><br></font>
+	<font size="5px">		
+
+
+	Q13.Select the method used to create a URL connection?<br></font>
+	<font size="5px">
+	<input type="radio" name="qr13" value="URL()" id="r49">URL()
+	<input type="radio" name="qr13" value="URL connection()" id="r50">URL connection()
+	<input type="radio" name="qr13" value="URL Decoder" id="r51">URL Decoder()
+	<input type="radio" name="qr13" value="open Connection()" id="r52">open Connection()
+	<br><br></font>
+	<font size="5px">		
+
+
+	Q14.Name the http method used to send resources to the server.<br></font>
+	<font size="5px">
+	<input type="radio" name="qr14" value="FTP method" id="r53">FTP method
+	<input type="radio" name="qr14" value="WRITE" id="r54">WRITE
+	<input type="radio" name="qr14" value="PUT method" id="r55">PUT method
+	<input type="radio" name="qr14" value="COPY method" id="r56">COPY method
+	<br><br></font>
+	<font size="5px">		
+
+
+	Q15.In CardLayout we are going to add components for every card to?<br></font>
+	<font size="5px">
+	<input type="radio" name="qr15" value="Panel" id="r57">Panel
+	<input type="radio" name="qr15" value="Frame" id="r58">Frame
+	<input type="radio" name="qr15" value="Window" id="r59">Window
+	<input type="radio" name="qr15" value="Applet" id="r60">Applet
+	<br><br></font>
+	<font size="5px">		
+
+
+	Q16.import java.awt.*;<br>
+		class Demo extends Frame<br>
+		{<br>
+			public static void main(String srgs[])<br>
+			{<br>
+				Frame f=new Frame();<br>
+				f.setVisible(true);<br>
+				f.setSize(150,200);<br>
+			}<br>
+		}<br>
+	In the above Program how can a user hide the frame window?
+				<br></font>
+	<font size="5px">
+	<input type="radio" name="qr16" value="using void setHide()" id="r61">using void setHide();<br>
+	<input type="radio" name="qr16" value="using setVisible(false)" id="r62">using setVisible(false);<br>
+	<input type="radio" name="qr16" value="using Void makeHidden(1)" id="r63">using Void makeHidden(1);<br>
+	<input type="radio" name="qr16" value="using hide" id="r64">using hide(false);
+	<br><br></font>
+	<font size="5px">		
+
+
+	Q17.Select the method to retrieve the Computer name and IP address?<br>
+	import java.net.*;<br>
+	class Mynet <br>
+	{<br>
+		public static void main(String args[])throws UnknownHostException<br>
+		{<br>
+			InetAddress i=InetAddress.getLocalHost();<br>
+			System.out.println("Computer name="+.....);<br>
+			System.out.println("IP Address="+.....);<br>
+		}<br>
+	}<br>
+	<br></font>
+	<font size="5px">
+	<input type="radio" name="qr17" value="1) getHostName()  2)getHostAddress" id="r65">1) getHostName() &nbsp&nbsp 2)getHostAddress()<br>
+	<input type="radio" name="qr17" value="1)getName()  2)getAddress()" id="r66"> 1)getName() &nbsp&nbsp 2)getAddress()<br>
+	<input type="radio" name="qr17" value="All of the above" id="r67"> All of the above<br>
+	<input type="radio" name="qr17" value="None of the above" id="r68">None of the above
+	<br><br></font>
+	<font size="5px">		
+
+
+	Q18.What is the return type of getItem()<br></font>
+	<font size="5px">
+	<input type="radio" name="qr18" value="String" id="r69">String
+	<input type="radio" name="qr18" value="int" id="r70">int
+	<input type="radio" name="qr18" value="Object" id="r71">Object
+	<input type="radio" name="qr18" value="All of the above" id="r72">All of the above
+	<br><br></font>
+	<font size="5px">		
+
+
+	Q19.The general form to set a specific type of layout manager is? <br></font>
+	<font size="5px">
+	<input type="radio" name="qr19" value="Void setLayout(Layoutmanager lm)" id="r73">Void setLayout(Layoutmanager lm)<br>
+	<input type="radio" name="qr19" value="void setLayout(layoutManager lm)" id="r74">void setLayout(layoutManager lm)<br>
+	<input type="radio" name="qr19" value="Void setLayout(layoutManager lm)" id="r75">Void setLayout(layoutManager lm)<br>
+	<input type="radio" name="qr19" value="void setLayout(LayoutManager lm)" id="r76">void setLayout(LayoutManager lm)
+	<br><br></font>
+	<font size="5px">		
+
+
+	Q20.Which among the below is not the method applicable for Button in swing<br></font>
+	<font size="5px">
+	<input type="radio" name="qr20" value="setDisableIcon" id="r77">setDisableIcon
+	<input type="radio" name="qr20" value="setSelectedIcon" id="r78">setSelectedIcon
+	<input type="radio" name="qr20" value="setPressedIcon" id="r79">setPressedIcon
+	<input type="radio" name="qr20" value="setRolloverIcon" id="r80">setRolloverIcon
+	<br><br></font>
+	<font size="5px">		
+
+	<center><input class="ajp_button" type="Button" name="btn" value="SUBMIT" onclick="Sub_ans()"></center>
+
+</form>
+</body>
+</html>
