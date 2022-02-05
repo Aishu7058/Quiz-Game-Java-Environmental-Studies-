@@ -17,4 +17,15 @@ Then You can deploy website in overview when you click on URL you can see youre 
 
 Output:-
 
+![a](https://user-images.githubusercontent.com/47585886/152639225-fae93874-020e-46ed-8237-b641fddf854d.png)
+
+here u can choose level and subject-
+![image](https://user-images.githubusercontent.com/47585886/152639245-4d1e230f-0228-4cb6-836f-807160a3ad18.png)
+
+here are the test questions:
+![image](https://user-images.githubusercontent.com/47585886/152639258-80b5d006-08ea-40ad-bae5-c20f0f14244e.png)
+
+score-
+![image](https://user-images.githubusercontent.com/47585886/152639288-7a04439c-2efe-464f-9634-9f4f801812ec.png)
+
 
